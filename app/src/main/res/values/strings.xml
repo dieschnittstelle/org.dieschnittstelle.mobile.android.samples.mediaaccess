@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">MediaAccess</string>
+
+    <!-- the labels used for the details view -->
+    <string name="itemdetails_description">Beschreibung</string>
+    <string name="itemdetails_name">Name</string>
+
+    <string name="background_prompt">Hintergrundauswahl</string> 
+    
+    <!-- the main menu items -->
+    <string-array name="main_menu">
+        <item>Local Accessor</item>
+        <item>Resteasy Client</item>
+        <item>Remote Web Content</item>
+        <item>Remote Web Content via Chrome</item>
+        <item>Simple URL</item>
+        <item>Apache HttpClient</item>
+        <item>HttpURLConnection</item>
+    </string-array>
+
+    <!-- constants for distinguishing the different menu options (which will all be realised by the same activities, the only difference being the implementation of the CRUD interface for accessing data items -->
+    <item name="localAccessor" type="integer">0</item>
+    <item name="urlClass" type="integer">1</item>
+    <item name="apacheHttpClient" type="integer">2</item>
+    <item name="urlConnection" type="integer">3</item>
+    <item name="resteasyFramework" type="integer">4</item>
+    
+    <!--  the background options and the resources -->    
+    <string-array name="background_list">
+        <item>Waschbeton</item>        
+        <item>Plastik</item>        
+        <item>Holz</item>        
+    </string-array>
+        
+    <string-array name="background_resources_list">
+        <item>concrete</item>        
+        <item>greenplastic</item>        
+        <item>woodpanel</item>        
+    </string-array>
+
+</resources>

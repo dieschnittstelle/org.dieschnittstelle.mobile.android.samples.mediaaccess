@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/libs/resteasy4Android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="52f035345d79278b4e7570c04a7596b874c7b221">
+        <dex dex="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/pre-dexed/debug/resteasy4Android_c73ee2b3fea5aa9c471a70abcf1c0c0dd34bbfa4.jar" />
+    </item>
+    <item
+        jar="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/libs/jackson-all-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0cb3dc38bbe4e1972086c30d8696fcae568a5525">
+        <dex dex="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/pre-dexed/debug/jackson-all-1.7.1_2d9c0077b1d442b1025a56bf4ee4020478230032.jar" />
+    </item>
+    <item
+        jar="/Users/master/Documents/jkdev/install/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_5ade67edb90aa5cb30df416af07ef71196e688db.jar" />
+    </item>
+    <item
+        jar="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="463018df51d03fae28cf5986810d0fadb3c5ab0f">
+        <dex dex="/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/pre-dexed/debug/jboss-jaxrs-api_1.1_spec-1.0.0.Final_1b13d9b3b46f3ce985f22b38d3570939f6196478.jar" />
+    </item>
+
+</items>

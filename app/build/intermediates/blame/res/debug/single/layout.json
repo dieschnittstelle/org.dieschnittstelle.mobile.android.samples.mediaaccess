@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/res/merged/debug/layout/itemwebview.xml",
+        "source": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/src/main/res/layout/itemwebview.xml"
+    },
+    {
+        "merged": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/res/merged/debug/layout/itemview.xml",
+        "source": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/src/main/res/layout/itemview.xml"
+    },
+    {
+        "merged": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/res/merged/debug/layout/itemlistview.xml",
+        "source": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/src/main/res/layout/itemlistview.xml"
+    },
+    {
+        "merged": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/res/merged/debug/layout/listview.xml",
+        "source": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/src/main/res/layout/listview.xml"
+    },
+    {
+        "merged": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/build/intermediates/res/merged/debug/layout/item_in_listview.xml",
+        "source": "/Users/master/Documents/jkwrite/bht/runtime/workspaces/madbrainsworkspace/org.dieschnittstelle.mobile.android.samples.mediaaccess/app/src/main/res/layout/item_in_listview.xml"
+    }
+]
