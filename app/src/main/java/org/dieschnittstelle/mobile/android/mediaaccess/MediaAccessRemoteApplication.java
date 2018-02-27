@@ -25,7 +25,7 @@ public class MediaAccessRemoteApplication extends Application {
 	/**
 	 * the baseUrl
 	 */
-	private String baseUrl = /*"http://10.0.2.2:8080/"*/"http://10.0.3.2:8080/";
+	private String baseUrl = /*Genymotion: "http://10.0.3.2:8080/"*/"http://10.0.2.2:8080/";
 
 	/**
 	 * the path where the media content is provided by the webapp
