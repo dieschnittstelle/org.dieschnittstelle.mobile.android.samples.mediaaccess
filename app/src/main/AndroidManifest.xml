@@ -4,10 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-     <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="16" />
-
     <!-- this permission is required to create an outgoing http connection to the webapp -->
     <uses-permission android:name="android.permission.INTERNET" />
 

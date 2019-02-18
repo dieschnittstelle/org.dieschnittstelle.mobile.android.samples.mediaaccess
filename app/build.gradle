@@ -1,12 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 27
+
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "org.dieschnittstelle.mobile.android.mediaaccess"
-        minSdkVersion 11
-        targetSdkVersion 19
+        minSdkVersion 14
+        targetSdkVersion 27
     }
 
     buildTypes {
@@ -18,8 +20,8 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
-    compile files('libs/jackson-all-1.7.1.jar')
-    compile files('libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar')
-    compile files('libs/resteasy4Android.jar')
+    implementation 'com.android.support:support-v4:27.0.0'
+    implementation files('libs/jackson-all-1.7.1.jar')
+    implementation files('libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar')
+    implementation files('libs/resteasy4Android.jar')
 }
