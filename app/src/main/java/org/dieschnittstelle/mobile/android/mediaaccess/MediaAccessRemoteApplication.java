@@ -28,7 +28,7 @@ public class MediaAccessRemoteApplication extends Application {
 	public static final String WEBAPP_BASEURL_IN_LOCAL_NETWORK = "http://192.168.2.101:8080/";
 
 	/**
-	 * the baseUrl - assign the required value for your local development setup
+	 * the baseUrl - TODO: assign the required value for your local development setup
 	 */
 	private String baseUrl = WEBAPP_BASEURL_IN_LOCAL_NETWORK;
 
