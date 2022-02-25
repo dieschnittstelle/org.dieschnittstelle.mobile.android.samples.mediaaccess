@@ -22,10 +22,15 @@ public class MediaAccessRemoteApplication extends Application {
 	protected static String logger = MediaAccessRemoteApplication.class
 			.getSimpleName();
 
+	public static final String WEBAPP_BASEURL_LOCALHOST_FROM_ANDROIDSTUDIO_EMULATOR = "http://10.0.2.2:8080/";
+	public static final String WEBAPP_BASEURL_LOCALHOST_FROM_GENYMOTION_EMULATOR = "http://10.0.3.2:8080/";
+	// TODO: change this url using the ip address of the machine on which the web application is started
+	public static final String WEBAPP_BASEURL_IN_LOCAL_NETWORK = "http://192.168.2.101:8080/";
+
 	/**
-	 * the baseUrl
+	 * the baseUrl - assign the required value for your local development setup
 	 */
-	private String baseUrl = /*Genymotion: "http://10.0.3.2:8080/"*/"http://10.0.2.2:8080/";
+	private String baseUrl = WEBAPP_BASEURL_IN_LOCAL_NETWORK;
 
 	/**
 	 * the path where the media content is provided by the webapp

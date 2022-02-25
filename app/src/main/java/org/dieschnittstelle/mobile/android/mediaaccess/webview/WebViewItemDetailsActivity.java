@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.widget.Toast;
 
@@ -80,6 +81,7 @@ public class WebViewItemDetailsActivity extends ItemDetailsActivity {
 		public static final int TOAST_LONG = Toast.LENGTH_LONG;
 		public static final int TOAST_SHORT = Toast.LENGTH_SHORT;
 
+		@JavascriptInterface
 		public void toast(String message, int length) {
 			Log.i(getClass().getName(), "toast has been requested: " + message
 					+ ", with length: " + length);
