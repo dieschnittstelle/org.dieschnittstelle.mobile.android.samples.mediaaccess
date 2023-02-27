@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.dieschnittstelle.mobile.android.samples.mediaaccess.iml" filepath="$PROJECT_DIR$/.idea/modules/org.dieschnittstelle.mobile.android.samples.mediaaccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.iml" filepath="$PROJECT_DIR$/.idea/modules/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/org.dieschnittstelle.mobile.android.samples.mediaaccess.local.app.androidTest.iml" />
