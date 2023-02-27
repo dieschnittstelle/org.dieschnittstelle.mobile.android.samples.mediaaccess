@@ -1,14 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 31
 
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "org.dieschnittstelle.mobile.android.mediaaccess"
-        minSdkVersion 14
-        targetSdkVersion 27
+        minSdkVersion 21
+        targetSdkVersion 31
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -17,11 +18,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    implementation 'com.android.support:support-v4:27.0.0'
+    implementation 'com.android.support:support-v4:31.0.0'
     implementation files('libs/jackson-all-1.7.1.jar')
     implementation files('libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar')
     implementation files('libs/resteasy4Android.jar')
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.3'
+    // retrofit api client
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.2'
 }

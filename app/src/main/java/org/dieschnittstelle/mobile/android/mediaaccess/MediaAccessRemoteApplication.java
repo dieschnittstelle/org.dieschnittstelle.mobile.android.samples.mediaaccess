@@ -47,7 +47,8 @@ public class MediaAccessRemoteApplication extends Application {
 		Log.i(logger, "<constructor>()");
 
 		this.dataAccessor = ProxyFactory.create(IDataItemCRUDOperations.class,
-				baseUrl + "api/", new ApacheHttpClient4Executor());
+				baseUrl + "api/",
+				new ApacheHttpClient4Executor());
 
 		Log.i(logger, "<constructor>(): created accessors.");
 	}
