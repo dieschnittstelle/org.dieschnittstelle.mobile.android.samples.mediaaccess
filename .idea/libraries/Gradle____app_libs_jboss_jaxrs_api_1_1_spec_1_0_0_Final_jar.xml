@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: ./app/libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar">
+  <library name="Gradle: ./app/libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/app/libs/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar!/" />
     </CLASSES>
